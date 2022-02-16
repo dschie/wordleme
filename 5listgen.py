@@ -17,6 +17,16 @@ with open('words_dictionary.json') as json_file:
 
 # maybe try https://github.com/mattbierner/urban-dictionary-word-list
 
+
+# from the video about solving wordle with information theory: https://www.youtube.com/watch?v=v68zYyaEmEA
+# possible words (from the wordle source code)
+# https://raw.githubusercontent.com/3b1b/videos/master/_2022/wordle/data/possible_words.txt
+# word frequency (extracted from http://commondatastorage.googleapis.com/books/syntactic-ngrams/index.html)
+# https://github.com/3b1b/videos/blob/master/_2022/wordle/data/freq_map.json 
+
+
+
+
 ##
 # reduce to 5 letter words and make shure they are lowercase
 ## 
