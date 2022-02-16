@@ -10,13 +10,13 @@
         .charcontainer{
             display: flex;
             width: 100%;
-            text-transform: lowercase;
+            text-transform: uppercase;
         }
         .charinput{
             /* width: 20%; */
             flex: auto;
             min-width: 0;
-            text-transform: lowercase;
+            text-transform: uppercase;
         }
     </style>
     <title>WordleMe</title>
@@ -81,7 +81,7 @@
                 myregex+="(?!.*["+canthave+"])";
             console.log(myregex);
             // FILTER
-            var re = new RegExp(myregex);
+            var re = new RegExp(myregex,"i");
             var filtered_words = words.filter(word => re.test(word));
             console.log(filtered_words.length + " matching criteria");
             // OUTPUT
